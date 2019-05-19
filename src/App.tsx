@@ -41,7 +41,6 @@ const App: React.FC = () => {
             <LayerGroup>
                 {cityRatingFeatures.map(toGeoJSON)}
             </LayerGroup>
-            <ZoomControl position="topright"/>
         </Map>
     );
 };
